@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Badan Website */
+body {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #F7F7F7; 
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+a:hover {
+    color: #1B4D3E;
+    background-color: #F7F7F7; 
+    transition: 0.2s ease;
+    font-size: 17px;
+}
+.logo { 
+    font-size: 1.2rem;
+    font-weight: 100px;
+    color: #F7F7F7;
+    font-style: normal;
+}
+.logomain {
+    font-weight: 550;
+}
+.logo, ul {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B4D3E;
+    padding: 5px;
+    position: fixed;
+    overflow: hidden;
+    top: 0; 
+    width: 100%;
+    z-index: 1000;
+}
+/* Isi Konten */
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.image-container {
+    background-color: #2C3930;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.imgbanner {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0.7;
+}
+.judulbanner {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.53);
+}
+.isibanner {
+    position: relative;
+    color: white;   
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.53);
+}
+.ucard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card {
+    width: 325px;
+    background-color: #F5F5F5;
+    padding: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.35);
+}
+.judul-informasi {
+    font-size: 25px;
+}
+.card:hover {
+    transition: 0.2s ease;
+    background-color: #5C8D89;
+    color: #F4F9F4;
+    padding: 10px;
+}
+.cimg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.tombol {
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #5C8D89;
+    color: #F4F9F4;
+    padding: 7px 12px 7px 12px;
+    display: flex;  
+    float: right;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.35);
+    font-family: "poppins", sans-serif;
+}
+.tombol:hover {
+    background-color: #F4F9F4;
+    color: #5C8D89;
+    transition: 0.2s ease;
+}
+/* Isi Konten 2 */
+.container1 {
+    background-color: #F6FCDF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.judulcontainer1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.isicontainer1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.tombol2 {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #31511E;
+    color: #F4F9F4;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 10px 17px 10px 17px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.35);
+}
+.tombol2:hover {
+    background-color: #F4F9F4;
+    color: #31511E;
+    transition: 0.2s ease;
+    font-size: 19px;
+}
+.container2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.cardgede {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.nuklir {
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.35);
+}
+.isinuklir {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.tombol2f {
+    text-align: center;
+}
+.h4c2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.h4bagianc2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container3 {
+    background-color: #EEEEEE;
+    padding-top: 50px;
+}
+.judulcontainer3 {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hcontainer3 {
+    font-size: 45px;
+    font-weight: 600;
+    max-width: 400px;
+    margin-right: 420px;
+}
+.pcontainer3 {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 600px;
+}
+.everyccolor {
+    height: 70%;
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardgede2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+.cardgede2v2 {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.cardcolor1 {
+    margin: 25px;
+    background-color: #143D60;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+    box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+}
+.hcolor1 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F4F9F4;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.pcolor1 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F4F9F4;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.cardcolor2 {
+    margin: 25px;
+    border-radius: 20px;
+    background-color: #859F3D;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+    box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+}
+.hcolor2 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F4F9F4;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.pcolor2 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F4F9F4;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.cardcolor3 {
+    margin: 25px;
+    border-radius: 20px;
+    background-color: #D9EAFD;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+    box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+}
+.hcolor3 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2A3335;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.pcolor3 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2A3335;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.cardcolor4 {
+    margin: 25px;
+    border-radius: 20px;
+    background-color: #FADA7A;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+    box-shadow: 0px 0px 20px 0px rgba(42,51,53,0.59);
+}
+.hcolor4 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2A3335;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.pcolor4 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2A3335;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #4A4947;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #F7F7F7;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon {
+    padding-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.youtube, .instagram, .facebook, .twitter, .reddit {
+    font-family: "Poppins", sans-serif;
+    color: #F7F7F7;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+    /* Media Queries for Responsiveness */
+    @media (max-width: 1024px) {
+        .isibanner, .isicontainer1 {
+          margin: 0 100px;
+        }
+        .cardgede,
+        .cardgede2,
+        .cardgede2v2 {
+          margin: 30px 20px;
+        }
+        .judulcontainer3 {
+            display: flex;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .hcontainer3 {
+            font-size: 45px;
+            font-weight: 600;
+            margin-right: 100px;
+        }
+        .pcontainer3 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .card {
+            width: 80%;
+          }
+          .cardgede,
+          .cardgede2,
+          .cardgede2v2 {
+            flex-direction: column;
+            align-items: center;
+          }
+          .cardcolor1,
+          .cardcolor2,
+          .cardcolor3,
+          .cardcolor4 {
+            width: 80%;
+          }
+          .judulcontainer3 {
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hcontainer3 {
+            text-align: center;
+            font-size: 45px;
+            font-weight: 600;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .pcontainer3 {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .logo, .menu, .menu-icon {
+            margin: 0 20px;
+          }
+          li {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+          }
+          .agustus {
+            position: fixed;
+            flex-direction: column;
+            top: -100%;
+            top: 45px;
+            gap: 0;
+            width: 40%;
+            text-align: center;
+            transition: 0.3s ease; 
+          }
+          .agustus.active {
+            display: flex;
+            left: 400px;
+            background-color: #1B4D3E;
+            z-index: 1000;
+          }
+        .hamburger {
+            display: block;
+            cursor: pointer;
+            color: white;
+            font-size: 25px;
+        }
+      }
+  
+      @media (max-width: 768px) {
+        .logo, ul {
+          margin: 0 20px;
+        }
+        li {
+          display: block;
+          text-align: center;
+          margin: 10px 0;
+        }
+        .judulbanner {
+          font-size: 50px;
+        }
+        .isibanner {
+          font-size: 16px;
+          margin: 0 20px;
+        }
+        .isicontainer1 {
+          margin: auto;
+          font-size: 20px;
+          margin: auto;
+        }
+        .container1 {
+          padding: 40px 10px;
+        }
+        .card {
+          width: 90%;
+        }
+        .cardgede,
+        .cardgede2,
+        .cardgede2v2 {
+          flex-direction: column;
+          align-items: center;
+        }
+        .cardcolor1,
+        .cardcolor2,
+        .cardcolor3,
+        .cardcolor4 {
+          width: 90%;
+        }
+        .icon {
+            padding-top: 20px;
+            font-size: 25px;
+            cursor: pointer;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-family: "Poppins", sans-serif;
+            display: block;
+            justify-content: center;
+        }
+        .logo, .menu, .menu-icon {
+            margin: 0 20px;
+          }
+          li {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+          }
+          .agustus {
+            position: fixed;
+            flex-direction: column;
+            left: -100%;
+            top: 45px;
+            gap: 0;
+            width: 100%;
+            text-align: center;
+            transition: 0.3s ease; 
+          }
+          .agustus.active {
+            display: flex;
+            left: -20px;
+            background-color: #1B4D3E;
+            z-index: 1000;
+          }
+        .hamburger {
+            display: block;
+            cursor: pointer;
+            color: white;
+            font-size: 25px;
+        }
+      }
